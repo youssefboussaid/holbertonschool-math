@@ -29,4 +29,5 @@ void display_complex_number(complex c)
 			printf("%.9g + i\n", c.re);
 		else
 			printf("%.9g + %.9gi\n", c.re, c.im);
-	} 
+	}
+}	
